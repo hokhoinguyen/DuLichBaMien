@@ -1,0 +1,58 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="dulich.css">
+	<link rel="stylesheet" href="form.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="jquery.js"></script>
+	<script src="javascript.js"></script>
+	<title>Ý kiến đóng góp</title>
+	<script src="javascript.js"></script>
+
+</head>
+<body>
+       <div class="banner">
+			<h1>DU LỊCH BA MIỀN</h1>
+	   </div>
+       <div class="nav">
+           <ul id="menu">
+               <li><a href="travel.html">Trang chủ</a></li>
+               <li><a href="camnang.html">Cẩm nang du lịch</a></li>
+               <li><a>Khám phá</a>
+                    <ul id="submenu">
+                        <li><a href="mienbac.html">Miền Bắc</a></li>
+                        <li><a href="mientrung.html">Miền Trung</a></li>
+                        <li><a href="miennam.html">Miền Nam</a></li>
+                    </ul>
+                </li>
+               <li><a href="ykien.html">Ý kiến đóng góp</a></li>
+           </ul></div>
+	<div class="container">
+	<div class="left"></div>
+			<div class="content"><br>
+				<h1>Ý KIẾN ĐÓNG GÓP</h1>
+				<br>
+				<h2>Chúng tôi rất mong nhận được những ý kiến đóng góp của các bạn!</h2>
+				<br>
+	<div class="bg-img">
+	<form class="form-container" method= "post">
+	  <h3>Họ và tên</h3>
+	  <input type="text" id="name" placeholder="Nhập họ tên ở đây!" required><br>
+		 <h3>Ý kiến đóng góp của bạn</h3>
+		<textarea id="info" placeholder="Nhập ý kiến của bạn ở đây!" required></textarea><br>
+		<input type= "submit" value="Gửi thông tin" onclick="output()">
+		<input type ="reset" value="Nhập lại">
+	</form>
+	</div>
+		</div>
+		<div class= "right">
+			<h2 style="color:white">NGÀY HÔM NAY</h2>
+			<div class="date"></div><br>
+				<h2 style="color:white">THỜI GIAN<br>HIỆN TẠI</h2>
+				<br>
+			<div class="clock">00:00:00</div>
+		</div>
+		</div>
+</body>
+</html>

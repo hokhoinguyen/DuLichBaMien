@@ -1,0 +1,36 @@
+/*hinh anh mo khi hover*/
+
+/*info hien duoi hinh anh khi hover*/
+
+.box { /*phần chứa hình ảnh*/
+	position: relative;
+	transition: .3s ease;
+	cursor:help;
+}
+
+.title {
+	display:flex;
+  background:#000;
+  color: white;
+  position: absolute;
+	font-size:30px;
+  bottom: 0;
+  left: 35%; /*lề bên trái khung*/
+  margin-left: -50px;
+  margin-bottom: -30px;
+  width: auto; /*chiều rộng khung title*/
+  height: auto;/*chiều cao khung title*/
+  line-height: 30px;/*dãn cách dòng*/
+  text-align: center;
+  opacity: 0;
+  transition: .3s linear;
+}
+
+.box:hover {
+  opacity: .3; /*độ bóng của box khi hover*/
+}
+
+.box:hover .title { /*anh cua title sau khi hover len box*/
+  opacity: 1;
+  margin-bottom: 110px; /*can le tu duoi len*/
+}

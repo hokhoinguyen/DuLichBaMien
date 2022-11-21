@@ -1,0 +1,71 @@
+.bg-img {
+  /* hinh nen chua form */
+	background-image: url("dulich/formbg.png");
+  /* can chinh hinh anh*/
+	background-position: center;
+	background-repeat:repeat;
+	background-size: 100%;
+	width:90%;
+	height:auto;
+	margin:auto;
+	border-radius: 5px;/*bo tron goc cua bg*/
+}
+
+/*cac truong ben trong form*/
+input[type=text], textarea {
+  width: 80%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize:vertical; /*resize chi huong dọc cho khung textarea*/
+}
+
+input[type=submit] {
+  background:#595959;
+  color:white;
+  padding: 12px 20px;
+	border: none;
+  cursor: pointer;
+	font-size: 20px;
+
+}
+
+input[type=submit]:hover { /*hover len nut gui thong tin*/
+   background-image: url("dulich/1.png");
+	background-position: center;
+	background-size: 100%;
+	color:#3DFFF7;
+}
+
+input[type=reset] {
+   background:#595959;
+  color:white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+	font-size: 20px;
+}
+
+input[type=reset]:hover { /*hover len nut nhap lai*/
+   background-image: url("dulich/1.png");
+	background-position: center;
+	background-size: 100%;
+	color:red;
+}
+label
+{
+	font-size: 15px;
+}
+/*form*/
+.form-container {
+  border-radius: 5px;
+  background-color:rgba(255,255,255,0.50);
+  padding: 20px;
+	margin:auto;
+	width :80%;
+	height:auto;
+	position:relative;
+}
+
